@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Mongo api")
 
 	r := router.Router()
 	fmt.Println("Server is getting started...")
